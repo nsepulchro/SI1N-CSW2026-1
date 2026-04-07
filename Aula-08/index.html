@@ -9,22 +9,23 @@
 
 <body>
     <h1>Aula-08 - Vídeos e Audios</h1>
-    <table cellpading="10" cellspacing="60" border="1">
-        <tr align="center">
-            <td></td>
-            <td></td>
-            <td>
-                <a href="paginas/youtube.html" > <img src="img/youtube.jfif" alt="youtube" width="200px">
-                </a>
-            </td>
-        </tr>
+    <p>Esta pagina demonstra um arquivo de audio em HTML</p>
+    <audio controls>
+        <source src="audio/hino-flamengo.mp3" type="audio/mpeg">
+    </audio>
+   <p>Esta pagina demonstra um arquivo de video local</p>
+   <video width="500" controls
+   src="midia/midiadog.mp4" >
 
+   </video>
+   <hr>
+   <a href="./paginas/youtube.html">
+    <img src="./img/youtube.png" alt="logo youtube">
 
-        <audio preload="metadata" controls autoplay loop source src="midia/hino.mp3" type="audio/mpeg">
-            <p>Esta pagina demonstra arquivo de áudio em HTMl <a href="./audio/hino-flamengo.mp3"> </a> </p>
-
-        </audio>
-    </table>
+   </a>
+   <a href="./paginas/vimeo.html">
+    <img src="./img/vimeo.png" alt="logo vimeo">
+   </a>
 </body>
 
 </html>
