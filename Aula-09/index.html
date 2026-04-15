@@ -9,42 +9,115 @@
 
 <body>
     <h1>Formulario</h1>
-     <form action="nicolas.s.santosti@gmail.com" method="post" enctype="text/plain">
-    <table border="1" cellpading="5" cellspacing="0">
-        <tbody>
-        <tr>
-            
-                <form action="nicolas.s.santosti@gmail.com" method="post" enctype="text/plain">
-                 <td> <label for="" size="40">Nome:</label> </td>  
-                   <td> <input type="text" name="nome-usuario" id="nome-usuario1" size="40" placeholder="Digite seu nome"></td>
-            </tr>
-            <tr>
-                <td><label for="email">Email Pessoal:</label></td>
-                <td> <input type="email" id="email" name="email" ></td>
-            </tr>
-             <tr>
-                <td><label for="email">Email (patter):</label></td>
-                <td> <input type="email" id="email" name="email" ></td>
-            </tr>
-            <tr>
-                <td> <label for="senha"> Senha:</label></td>
-                <td><input type="password" id="senha" name="senha"  ></td>
-            </tr>
-            <tr>
-                <td> <label for="idade"> Idade:</label></td>
-                <td><input type="number" id="idade" name="idade"></td>
-            </tr>
-            <tr>
-                
-                <td colspan="2"> <textarea name="comentário" cols="50" rows="10" >Deixe seu comentário</textarea></td>
-            </tr>
-        </tbody>
-        <tfoot>
+    <form action="nicolas.s.santosti@gmail.com" method="post" enctype="text/plain">
+        <table border="1" cellpading="5" cellspacing="0">
+            <tbody>
+                <tr>
 
-        </tfoot>
-      
-    </table>
-      </form>
+                    <form action="nicolas.s.santosti@gmail.com" method="post" enctype="text/plain">
+                        <td> <label for="" size="40">Nome:</label> </td>
+                        <td> <input type="text" name="nome-usuario" id="nome-usuario1" size="40"
+                                placeholder="Digite seu nome"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email Pessoal:</label></td>
+                    <td> <input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email (patter):</label></td>
+                    <td> <input type="email" id="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td> <label for="senha"> Senha:</label></td>
+                    <td><input type="password" id="senha" name="senha"></td>
+                </tr>
+                <tr>
+                    <td> <label for="idade"> Idade:</label></td>
+                    <td><input type="number" id="idade" name="idade"></td>
+                </tr>
+                <tr>
+
+                    <td colspan="2"> <textarea name="comentário" cols="50" rows="10"
+                            placeholder="Deixe seu comentário:"></textarea></td>
+                </tr>
+                <br>
+                <tr>
+                    <td><label for="">Matérias de Interesse:</label>
+                        <br>
+                        <input type="checkbox" name="back" value="back"> BackEnd
+                        <br>
+                        <input type="checkbox" name="front" value="front"> FrontEnd
+                        <br>
+                        <input type="checkbox" name="full" value="full"> Fullstack
+
+                    </td>
+                    <td>
+                        <label for="">Tipo de Viagem:</label>
+                        <br>
+                        <input type="radio" name="op1" value="yes"> Negócios
+                        <br>
+                        <input type="radio" name="op2" value="yes"> Lazer
+                        <br>
+                        <input type="radio" name="op3" value="yes"> Turismo
+                        <br>
+                        <input type="radio" name="op4" value="yes"> Acadêmico
+
+                    </td>
+                <tr>
+                    <td>
+                        <label for="">Esporte favorito:</label>
+
+                        <select name="esportes" id="1">
+                            <option value="">Selecione</option>
+                            <option value="">Futebol</option>
+                            <option value="">Basquete</option>
+                            <option value="">Vôlei</option>
+                            <option value="">Tênis</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="">Investimentos:</label>
+
+                        <select name="investimentos" id="1">
+                            <option value="">Poupança</option>
+                            <option value="">CDB</option>
+                            <option value="">Tesouro Direto</option>
+                            <option value="">DEBÊNTURES</option>
+                            <option value="">Criptomoeda</option>
+                            <option value="">Ações</option>
+
+                    </td>
+                </tr>
+                <td>
+                <label for="">Escolha uma cor:</label>
+                <input type="color" name="cor" id="">
+                </td>
+                <td>
+                    <label for="arquivo">Selecione um arquivo:</label>
+                    <input type="file" name="arquivo" id="arquivo">
+                </td>
+                <tr>
+                    <td>
+                    <label for="data">Data e hora envio:</label>
+                        <input type="datetime-local" name="data" id="data">
+                    
+                    </td>
+                    <tr>
+                        <td><input type="submit" value="Enviar"></td>
+                        <td><input type="reset" value="Limpar"></td>
+                    </tr>
+                </tr>
+
+
+
+                
+            </tbody>
+            <tfoot>
+
+            </tfoot>
+
+        </table>
+    </form>
 
 </body>
 
