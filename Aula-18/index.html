@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-17</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+    <div id="resultado"></div>
+
+
+    <div id="container2">
+        <label for="dia">Dia</label>
+        <input type="number" id="dia" min="1" max="31">
+
+        <select name="meses" id="mes">
+            <option value="jan">janeiro</option>
+            <option value="fev">Fevereiro</option>
+            <option value="mar">Março</option>
+            <option value="abr">Abril</option>
+            <option value="mai">Maio</option>
+            <option value="jun">Junho</option>
+            <option value="jul">Julho</option>
+            <option value="ago">Agosto</option>
+            <option value="set">Setembro</option>
+            <option value="out">Outubro</option>
+            <option value="nov">Novembro</option>
+            <option value="dez">Dezembro</option>
+        </select>
+
+        <label for="ano">Ano</label>
+        <input type="number" id="ano" min="1900" max="2026">
+
+    
+        <button onclick="CalcularGeral()">Calcular</button>
+
+        <p id="resultado"></p>
+
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
